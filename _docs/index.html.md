@@ -13,31 +13,11 @@ health_check()
 
     The application is healthy!
 
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
 ``` python
 version()
 ```
 
-    fast_snippets version: 0.1.0
-
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
+    fast_snippets version: 0.1.1
 
 You can also check out the CLI in by running
 
@@ -64,27 +44,4 @@ $ fs
 
     CompletedProcess(args=['/Users/yeshwanth/Code/Personal/fast_snippets/.venv/bin/fs'], returncode=2)
 
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
 in shell
-
-``` python
-```
-
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
-    : 
-    [1;31mnotebook controller is DISPOSED. 
-
-    [1;31mView Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
