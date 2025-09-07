@@ -89,7 +89,8 @@ e:
 	nbdev_export
 	nbdev_docs
 	nbdev_readme
-	nbdev_pypi
+	rm -rf dist && python -m build
+	twine upload --repository pypi dist/*
 
 push: e
 	git add .
