@@ -7,5 +7,8 @@ name="fast_snippets"
 requires-python=">=3.9"
 dynamic = [ "keywords", "description", "version", "dependencies", "optional-dependencies", "readme", "license", "authors", "classifiers", "entry-points", "scripts", "urls"]
 
+[tool.setuptools.dynamic]
+keywords = { value = "snippets" }
+
 [tool.uv]
 cache-keys = [{ file = "pyproject.toml" }, { file = "settings.ini" }, { file = "setup.py" }]
