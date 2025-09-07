@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "Fast Snippets"
+  site-url: "https://sizhky.github.io/fast_snippets"
+  description: "Fast Snippets for Pytorch, Computer Vision, Deep Learning and Python in General"
+  repo-branch: main
+  repo-url: "https://github.com/sizhky/fast_snippets.git"
