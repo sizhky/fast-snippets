@@ -92,11 +92,13 @@ e:
 	rm -rf dist && python -m build
 	twine upload --repository pypi dist/*
 
-push: e
+push:
 	git add .
 	git commit -m "Update"
 	git push origin main
 	uv sync
+
+epush: e push
 
 setup:
 	git init
