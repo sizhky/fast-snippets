@@ -20,6 +20,7 @@ license = {text = "MIT license"}
 dependencies = [
   "typer",
   "nbdev",
+  "twine>=6.2.0",
 ]
 
 [project.optional-dependencies]
