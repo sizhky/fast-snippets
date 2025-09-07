@@ -5,16 +5,26 @@
 
 ------------------------------------------------------------------------
 
+### health_check
+
+>  health_check ()
+
+*Check the health of the application.*
+
+``` python
+health_check()
+```
+
+------------------------------------------------------------------------
+
 ### version
 
 >  version ()
 
 *Print the version of the application.*
 
-------------------------------------------------------------------------
+``` python
+version()
+```
 
-### health_check
-
->  health_check ()
-
-*Check the health of the application.*
+    fast_snippets version: 0.1.1

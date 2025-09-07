@@ -21,9 +21,10 @@ def health_check() -> None:
     print("The application is healthy!")
 
 
+# %% ../../nbs/API/0-health.ipynb 5
 @cli.command()
 def version() -> None:
     """Print the version of the application."""
-    from . import __version__
+    from fast_snippets import __version__
 
     print(f"fast_snippets version: {__version__}")
