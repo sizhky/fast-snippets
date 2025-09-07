@@ -89,6 +89,7 @@ e:
 	nbdev_export
 	nbdev_docs
 	nbdev_readme
+	nbdev_pypi
 
 push: e
 	git add .
